@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudyGo</title>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel = "icon" href="{{ url_for('static',filename='Logo.png') }}"/>
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
 </head>
 <body class="all">
@@ -17,7 +18,7 @@
         <button class="barbar">Create</button>
         <button class="barbar"><a href="/about">About</a></button>
     </div>
-    <img id="positive" src="https://teachmag.com/wp-content/uploads/2014/03/LgImage_595_ClassPers0913.jpg" alt="landscape-pic" width="500" length="500">
+    <img id="positive" src="{{ url_for('static',filename='StudyGo.png') }}" alt="landscape-pic" width="40%">
     <div id="mission">Our mission is to provide a free, nonproift <br><br> education tool to make learning easier for <br><br> children and adults everyhwere. Regardless <br><br> of social or econonic standing, all people deserve <br><br> the chance at a proper education, <br><br> and at StudyGo, we believe in that <br><br>idea wholeheartedly.</div>
     <div id="location">StudyGo was founded by the St. Mark's School of Texas comp-sci club</div>
     <script>
