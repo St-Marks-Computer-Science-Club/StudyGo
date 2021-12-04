@@ -1,17 +1,16 @@
 #title{
     text-align: center;
     float: left; 
-    width: 150px; 
-    height: 40px; 
     font-size: 30px;
     color: orange;
-    margin-left: 10px;
-    border: 2.5px solid orange;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 .all{
     background-image: url('https://cdn.crispedge.com/000080.png');
 }
 #headbar{
+    font-size: 80px;
     text-align: center;
     color: gold; 
     border: 2px solid gold;
@@ -50,29 +49,20 @@
     margin-left: 20px;
     border: 0.5px solid gold;
 }
-#mission {
-    float: left;
+
+#main_text {
+    color: yellow;
+    font-size: 45px;
+    margin: 5px;
+}
+
+#mentions {
     color: yellow;
     font-size: 35px;
     margin: 5px;
 }
-#location {
-    color: gold;
-}
-
-#main_text {
-    margin: 10px;
-    font-size: 40px;
-    color: white;
-}
-
-#mentions {
-    margin: 10px;
-    font-size: 30px;
-    color: white;
-}
 
 #contribute {
     font-size: 25px;
-    color: white;
+    color: yellow;
 }
