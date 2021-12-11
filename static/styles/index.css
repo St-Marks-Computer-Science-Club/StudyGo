@@ -6,8 +6,8 @@
     margin-left: 15px;
     margin-top: 5px;
 }
-.all{
-    background-image: url('https://cdn.crispedge.com/000080.png');
+body { 
+    background-color: #007fff;
 }
 #headbar{
     font-size: 80px;
@@ -50,7 +50,6 @@
     border: 0.5px solid gold;
 }
 #mission {
-    float: left;
     color: yellow;
     font-size: 35px;
     margin: 5px;
