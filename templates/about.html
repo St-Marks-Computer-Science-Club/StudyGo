@@ -8,18 +8,27 @@
     <link rel = "icon" href="{{ url_for('static',filename='Logo.png') }}"/>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/about.css') }}">
-</head>
-<body class="all">
-    <img id="title" src="{{ url_for('static',filename='StudyGo.png') }}" alt="landscape-pic" width="140px" height="auto"> 
-    <h1 id="headbar">About StudyGo</h1>
-    <div id= "bar">
-        <button class="bartext"><a href="/">Home</a></button>
-        <button class="barbar">Sets</button>
-        <button class="barbar">Create</button>
-        <button class="barbar"><a href="/about">About</a></button>
-    </div>
 
-    <h1 id="main_text">StudyGo was created by the St. Mark's School of Texas Computer science club.</h1>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <nav class="uk-navbar-container uk-navbar-primary" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/sets">Sets</a></li>
+                <li><a href="/create">Create</a></li>
+                <li class = "uk-active"><a href="/about">About</a></li>
+            </ul>
+    
+        </div>
+    </nav>
+
+    <h1 class = "uk-margin-small" style = "margin-left: 10px; margin-right: 10px;">StudyGo was created by the St. Mark's School of Texas Computer science club.</h1>
     <br/>
     <h1 id="mentions">
         Lead - Eric Zhang
@@ -28,7 +37,7 @@
         <br/>        
         Frontend - Benjamin Standefer, Andy Wang, Camp Lemkin
         <br/>
-        Designer - Neil Rakheja
+        Designer - Neil Rakheja, Adam Tahirkheli
     </h1>
     <a href = "https://github.com/St-Marks-Computer-Science-Club/StudyGo" id="contribute">
         Please contribute to the github repository! 
